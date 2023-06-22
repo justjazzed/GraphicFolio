@@ -1,0 +1,1194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    
+}
+body{
+    height: 100%;
+    min-height: 100%;
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+
+/******************************* Hero Section ***************************/
+
+.navbar2{
+    width: 250px;
+    height: 80%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #ffd073;
+    transition: 0.4s;
+    z-index: 999;
+  }
+  
+ 
+  .navbar-nav{
+    display: block;
+    text-align: center;
+    
+  }
+  .navbar-nav li a{
+    color: #2f4858;
+  }
+  
+  .nav-link{
+    font-size: 1.25em;
+
+  }
+  .nav-links{
+    transition: all .4s;
+    opacity: 0;
+  }
+  .nav-links.to-top.active {
+    pointer-events: auto;
+    opacity:1;
+  }
+  .nav-link a{
+    color: #2f4858;
+  }
+  
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color: #ffffff26;
+  }
+  
+  
+  
+  
+  
+  .my-container {
+    transition: 0.4s;
+  }
+  
+  
+  /* for navbar */
+  
+  .active-nav {
+    margin-left: 0;
+  }
+  
+  
+  /* for main section */
+  
+  .active-cont {
+    margin-left: 250px;
+  }
+  
+  #menu-btn {
+    position:fixed;
+    top: 0%;
+    background-color: #31897d;
+    z-index: 999;
+    transition: all .4s;
+  }
+  #menu-btn i{
+    font-size: 25px;
+    color: #2f4858;
+  }
+ 
+
+
+.main1{
+    height: 100%;
+    min-height: 100%;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+
+
+.main1-content{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #d5cabd;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.main1-content .header-img img{
+    width: 500px;
+}
+.main1-content .header-text h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+.main1-content .header-text .social-links {
+    display: flex;
+    
+}
+.main1-content .header-text .social-links a{
+    margin-left: 1rem;
+    font-size: 40px;
+    color: #231f20;
+   
+}
+.main1-content .header-img .social-links-mobile a{
+    display: none;
+}
+.main1-content .header-text p{
+    font-size: 25px;
+    width: 90%;
+    font-weight: 300;
+}
+/******************************* Hero Section End ***************************/
+
+/******************************* About me ***************************/
+
+.main2{
+    height: 100%;
+    min-height: 100%;
+   margin: auto;
+   background-color: rgb(255, 255, 255);
+   overflow: hidden;
+}
+.About-Section{
+    margin: auto;
+}
+
+.About-Section  .about-image-1 img{
+    width: 350px;
+    float: inline-end;
+}
+.About-Section  .about-image-2 img{
+    width: 350px; 
+}
+.about-content-1{
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-content-1 h1{
+    font-size: 150px;
+}
+.about-content-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-content-2 p{
+    font-size: 40px;
+    width: 50%;
+
+}
+/* ******************************** Work Experience *******************************  */
+.main3{
+    margin-top: 10%;
+    width: 100%;
+    height: 90%;
+    
+}
+.main3 h1 span{
+    color: #2b2a2a;
+    font-family: 'Unna', serif;
+    font-style: italic;
+}
+.work-section h1{
+    color: #2b2a2a;
+    font-size: 100px;
+}
+.works{
+    display: flex;
+    margin-top: 6rem;
+}
+.works .freelance2{
+    margin-left: 50px;
+}
+
+.work-section1{
+    width: 50%;
+    height: 60vh;
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    background: url(../images/graphic/handrawn.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FCF3EE;
+ 
+}
+
+
+
+
+/* <!-- ******************************** Projects******************************* --> */
+
+.main4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10%;
+}
+
+.textmain h1{
+    font-size: 200px;
+    margin-top: 2.5%;
+    line-height: 90%;
+}
+.text1{
+    margin-left: 10%;  
+}
+.text2{
+    font-family: 'Unna', serif;
+    font-style: italic;
+    margin-left: -10%;
+}
+
+/* <!-- ******************************** NFTs******************************* --> */
+.main5{
+    margin-top: 5%;
+
+}
+
+.nft{
+    display: flex;
+    flex-direction: column;
+}
+.nft img{
+    width: 500px;
+}
+
+.item5-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ 
+}
+.description{
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    border: 1px solid black;
+    background-color: #d65db1;
+   
+}
+.description h1{
+    font-size: 100px;
+}
+.description p{
+    font-size: 1em;
+}
+
+/* <!-- ******************************** Logos******************************* --> */
+.main6{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+  
+}
+.logo-item{
+    text-align: center;
+}
+
+.logo-desc{
+    display: flex;
+    align-items: center;
+}
+.main6 h1{
+    margin-top: 15%;
+    font-size: 150px;
+    font-weight: 400;
+}
+.desc1{
+    padding: 1%;
+    width: 20%;
+    height: 45%;
+    border: 1px solid black;
+    background-color: #ff6f91;
+}
+.desc1 p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.main6 h1 span{
+    font-family: 'Unna', serif;
+    font-style: italic;
+}
+.logos{
+    margin: auto;
+}
+.logos img{
+    width: 30%;
+    transition: 0.4s ease-in-out;
+}
+.logos img:hover{
+    width: 35%;
+    transition: 0.4s ease-in-out;
+    border: 1px solid black;
+}
+
+.linkbutton{
+    width: 100%;
+}
+.button{
+  width: 10rem;
+  border: 1px solid black;
+  background-color: #b39cd0;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2%;
+  font-size: 16px;
+}
+/* <!-- ******************************** Mock ups******************************* --> */
+.main7{
+    margin-top: 10%;
+    width: 100%;
+  
+    overflow: hidden;
+}
+.mock-top{
+    display: flex;
+}
+.mock-top .bot-img img{
+    width: 130%;
+}
+.bot-img--1 img{
+    width: 60%;
+    position: relative;
+    left: 60%;
+}.bot-img--2 img{
+    width: 70%;
+    position: relative;
+    left:25%;
+}
+.bot-img--3 img{
+    width: 80%;
+}
+.mock-desc1{
+    top: 65%;
+    position: relative;
+    width: 25%;
+    left: 10%;
+}
+.mock-desc1 p{
+    font-family: 'Unna', serif;
+    font-style: italic;
+    padding: 10px;
+    width: 50%;
+    height: 35%;
+    border: 1px solid black;
+    background-color: #b39cd0;
+    font-size: 30px;
+}
+.mock-desc{
+    padding: 20px;
+    width: 20%;
+    height: 60%;
+    border: 1px solid black;
+    background-color: #ffc75f;
+    display: flex;
+    flex-direction: column;
+}
+.mock-top h1{
+    font-size: 80px;
+}
+.mock-top .mock-desc p{
+    font-size: 20px;
+}
+.mock-top h1 span{
+    font-family: 'Unna', serif;
+    font-style: italic;
+    
+}
+.mock-bot{
+    margin-top: 2%;
+    display: flex;
+}
+
+/* <!-- ******************************** Banner Design******************************* --> */
+.main8{
+    height: 90%;
+    margin-top: 10%;
+    
+}
+.left-img img{
+    width: 100%;
+    display: block ;
+}
+.right-img{
+    padding-left: 5%;
+}
+.right-img .main8-desc{
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    background-color: #008f7a;
+    display: flex;
+    flex-direction: column;
+    
+}
+.right-img .main8-desc h1 span{
+    font-family: 'Unna', serif;
+    font-style: italic;
+}
+.right-img .main8-desc h1 {
+    font-size: clamp(3.5rem,3vw,1rem);
+}
+.right-img .img3{
+    width: 100%;
+    margin-top: 5%;
+}
+
+
+.right-img img{
+    
+    display: block ;
+}
+.left-img .img3{
+    display: none;
+ 
+}
+.left-img .img2{
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 26%;
+}
+.Banner-Mobile{
+    display: none;
+}
+
+/****************************************** Works ********************************/
+.main4{
+   
+    height: 200%;
+}
+.row_right{
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+.row_right img{
+    width: 500px;
+}
+.row_left img{
+    width: 500px;
+}
+.row_left{
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+.row_right .map_box{
+text-align: left;
+padding-left: 15%;
+width:auto;
+}
+
+/* <!-- ******************************** Vector portrait ******************************* --> */
+.main9{
+    height: 100%;
+   margin-top: 10%;
+  
+}
+.portrait{
+    margin: auto;
+}
+.content-port{
+    display: flex;
+    align-items: center;
+    
+}
+
+.main9-desc{
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    background-color: #ff8066;
+    display: flex;
+    flex-direction: column;
+}
+.main9-desc h1{
+    font-size: 60px;
+}
+.main9-desc h1 span{
+    font-family: 'Unna', serif;
+    font-style: italic;
+}
+
+.port-img img{
+    margin-left: 1%;
+    border: 1px solid black;
+    width: 65%; 
+}
+.portrait .SHIRT{
+   text-align: center;
+}
+.SHIRT img{
+    width: 30%;
+    transition: 0.4s ease-in-out;
+}
+.SHIRT img:hover{
+    width: 35%;
+    transition: 0.4s ease-in-out;
+}
+
+/* <!-- ******************************** Contact ******************************* --> */
+.main-contact-1{
+    height: 100%;
+    min-height: 100%;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+
+
+.main1-contact{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #d5cabd;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.main1-contact .header-img img{
+    width: 500px;
+}
+.main1-contact .header-text h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.main1-contact .header-text p{
+    font-size: 40px;
+    width: 90%;
+    font-weight: 300;
+    font-family: 'Unna', serif;
+    font-style: italic;
+    text-align: center;
+   
+}
+
+
+    /* <!-- ******************************** Footer ******************************* --> */
+.footer-Content{
+    margin-top: 10%;
+    height: 15%;
+    width: 100%;
+    padding: 3% 0;
+   
+    background-color: #ffd073;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+   
+}
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all .5s ease;
+}
+.fade1.reveal{
+    position: relative;
+    transform: translateY(-150px);
+    opacity: 0;
+    transition: all .5s ease;
+}
+.img2.reveal{
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: all .5s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+/* ****************************************Media queries **************************************/
+
+/* ****************************************Hero Section **************************************/
+
+@media only screen and (max-width:991px) and (min-width:300px){
+   
+    .main1-content{
+        height: 65%;
+        border: 1px solid black;
+        background-color: #d5cabd;
+        display: block;
+        padding: 50px;
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+    }
+    .main1-content .header-img .social-links-mobile a{
+        display: flex;
+        margin: auto;
+        margin-top: 5%;
+       font-size: 25px;
+       color: #231f20;
+    }
+
+    .main1-content .header-text .social-links a{
+        display: none;
+    }
+   .main1-content .header-text p{
+    margin: auto;
+    font-size: large;
+    font-weight: 500;
+   }
+   .main1-content .header-img img{
+    margin-top: 2%;
+}
+}
+@media only screen and (max-width:767px)and (min-width:300px){
+    .main1-content .header-img img{
+        width:90%;
+  
+       }
+}
+
+/* ****************************************Hero Section End **************************************/
+
+/* ****************************************About Section**************************************/
+
+@media only screen and (max-width:991px) and (min-width:300px){
+   
+    
+    .about-content-2{
+        justify-content: none;
+        background-color: #007664;
+        border: 1px solid black;
+    }
+    .about-content-2 p{
+        font-size: clamp(1rem,4vw,2rem);
+        width: 90%;
+        color: aliceblue;
+        margin-top: 2%;
+    }
+    .about-content-1 h1{
+        font-size: 100px;
+        text-align: center;
+    }
+
+    
+   
+}
+@media only screen and (max-width:800px) and (min-width:300px){
+    
+    .about-content-2{
+        text-align: center;
+        display: block;
+        padding: 20px;
+       
+    }
+    .about-content-2 p{
+        font-size: clamp(1rem,4vw,5rem);
+      
+        margin: auto;
+    }
+    .About-Section  .about-image-2 img{
+        width: 90%; 
+        margin-top: 2%;
+    }
+    .About-Section  .about-image-1 img{
+        width: 90%; 
+    }
+    @media only screen and (max-width:500px){
+        .About-Section  .about-image-1 img{
+            display: none;
+        }
+    }
+}
+
+/* ****************************************About Section end**************************************/
+
+/* ****************************************Work Experience**************************************/
+@media only screen and (max-width:1399px) and (min-width:992px){
+
+    .work-section1{
+        width: 50%;
+    }
+    .work-section1 h1{
+        margin-top: 4.5rem;
+        width: auto;
+        font-size:clamp(5rem,5vw,1rem);
+        
+    }
+    .work-section1 .illutrations .work-img img{
+        width: 90%;
+        transform: rotate(5deg);
+    }
+    @media only screen and (max-width:992px){
+        .work-section1 h1{
+            margin-top: 5rem;
+        }
+    }
+}
+@media only screen and (max-width:991px) and (min-width:300px){
+    .work-section-main{
+     display: block;
+        margin: auto;
+
+    }
+    .work-section1{
+        width: auto;
+    }
+    .work-section h1{
+        font-size:clamp(5rem,1vw,1rem);
+    }
+    .works .freelance h1{
+        font-size:20px;
+    }
+    .work-section1 h1{
+        font-size:clamp(5rem,1vw,1rem);
+    }
+   
+    .work-section1 .illutrations .work-img img{
+        z-index: 999;
+    }
+    @media only screen and (max-width:400px){
+        .work-section h1{
+            font-size:clamp(4rem,4vw,1rem)
+        }
+        .work-section1 h1{
+            font-size:clamp(3rem,4vw,1rem);
+        }
+    }
+}
+/* ****************************************Work Experience end**************************************/
+
+
+
+/* ****************************************Destined to Design**************************************/
+@media only screen and (max-width:991px)and (min-width:300px){
+       
+        .textmain h1{
+            font-size: 10em;
+            margin: none;
+         }
+         .text1{
+            margin-left:0;  
+        }
+        .text2{
+            margin-left:-6%;
+        }
+        @media only screen and (max-width:600px){
+            .textmain h1{
+                font-size: 6em;
+           
+             }
+            }
+}
+/* ****************************************Destined to Design end**************************************/
+
+/* ****************************************NFTs**************************************/
+@media only screen and (max-width:1090px)and (min-width:300px){
+    .item5-content{
+    display: inline-block;
+    }
+    .description{
+        padding: 20px;
+        text-align: center;
+        width: auto;
+        height:auto;
+        border: 1px solid black;
+    }
+    .nft{
+        padding-left: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+   
+}
+/* ****************************************LOGOS**************************************/
+@media only screen and (max-width:1199px) and (min-width:300px){
+ 
+    .desc1 p{
+        font-size: clamp(1.4rem,4vw,1rem);
+    }
+    .desc1{
+        padding: 1%;
+        width: 30%;
+        height: auto;
+    }
+  
+     .logo-desc{
+      float: right;
+    }
+    .main6 h1{
+        margin-top: 15%;
+        font-size: 110px;
+       
+    }
+    @media only screen and (max-width:767px) and (min-width:300px){
+        .desc1 p{
+            font-size: clamp(1rem,4vw,1rem);
+        }
+        .logo-desc{
+           gap: 50px;
+          }
+          .main6 h1{
+            font-size: 80px;
+           
+        }
+    }
+}
+@media only screen and (max-width:465px){
+    .desc1 p{
+        font-size:15px;
+    }
+    .logo-desc{
+       gap: 40px;
+      }
+      .main6 h1{
+        font-size: 65px;
+       
+    }
+}
+/* ****************************************LOGOS end**************************************/
+
+
+
+/* ****************************************Mock up**************************************/
+
+@media only screen and (max-width:1800px) and (min-width:300px){
+   
+    .mock-desc1{
+        top: 0%;
+    }
+    .mock-desc1 p{
+        width:70%;
+        height: auto;
+        font-size: clamp(1rem,4vw,2rem);
+    }
+    .mock-desc{
+        height: auto;
+    }
+    .mock-top h1{
+        font-size: clamp(3.2rem,10vw,1rem);
+    }
+    .mock-top .mock-desc p{
+        font-size: clamp(1.6rem,4vh,1rem);
+    }
+ 
+}
+@media only screen and (max-width:992px) and (min-width:300px){
+   
+   .mock-top{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   }
+   .mock-desc1{
+    margin-right: 20%;
+    width: 40%;
+}
+    .mock-desc1 p{
+        height: auto;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .mock-desc{
+        width: 40%;
+    }
+   
+}
+@media only screen and (max-width:767px) and (min-width:300px){
+    .mock-desc1{
+        margin-right: 20%;
+        width: 40%;
+    }
+        .mock-desc1 p{
+            height: auto;
+            width: auto;
+            justify-content: center;
+            text-align: center;
+        }
+        .mock-desc{
+            text-align: center;
+            width: 80%;
+           
+        }
+        .mock-top .bot-img img{
+            width: 200%;
+        }
+        .bot-img--1 img{
+            width: 100%;
+            position: relative;
+            left: 2%;
+        }.bot-img--2 img{
+            width: 100%;
+            position: relative;
+            left:2%;
+        }
+        .bot-img--3 img{
+            width: 70%;
+            margin-right: 10%;
+        }
+        .mock-bot{
+           gap: 20px;
+        }
+        
+}
+
+/* ****************************************Mock up end**************************************/
+
+
+/* ****************************************Banner Ads**************************************/
+@media only screen and (max-width:992px) and (min-width:300px){
+    .right-img .main8-desc h1 {
+        font-size: clamp(3rem,3vw,1rem);
+    }
+    .right-img .main8-desc p {
+        font-size: clamp(1rem,3vw,1rem);
+    }
+    .right-img .main8-desc{
+        padding: 20px;
+        width: auto;
+        height: auto;  
+    }
+    .right-img .img3{
+        
+        margin-top: 5%;
+    }
+    .left-img .img1{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    
+   
+    .left-img .img2{
+        width:100%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width:600px) and (min-width:300px){
+    .right-img .main8-desc h1 {
+        font-size: clamp(2rem,3vw,1rem);
+    }
+    .right-img .main8-desc p {
+        font-size: clamp(1rem,1vw,1rem);
+    }
+  
+    .right-img .img3{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .right-img .img1{
+        width: 100%;
+        margin-top: 30%;
+    }
+    
+    .right-img img{
+        display: none ;
+    }
+   
+    .left-img .img2{
+        width:100%;
+        margin-top: 5%;
+       
+    }
+   
+   
+}
+@media only screen and (max-width:500px) and (min-width:300px){
+    .main8 .row{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .right-img{
+        width: auto;
+        margin-left: -2%;
+    }
+    .left-img{
+        margin-top: -5%;
+        width:90%;
+        margin-left: -18%;
+    }
+}
+
+/* ****************************************Banner Ads ends**************************************/
+
+/****************************************** Work Process ********************************/
+@media only screen and (max-width:1500px)and (min-width:350px){
+    .main4{
+      height: auto;
+      overflow: hidden;
+    }
+  }
+  @media only screen and (max-width:1199px){
+   
+    .row_right img{
+        margin-left: -35%;
+       }
+      
+  }
+  @media only screen and (max-width:991px)and (min-width:350px){
+      .main4{
+        height: auto;
+      }
+    .main4 .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+      margin: auto;
+    }
+
+    .row_right .map_box{
+        text-align: center;
+        padding-left: 0;
+        width: 100%;
+      }
+      .row_right .map_box ul li{
+        width: 100%;
+      }
+    .row_right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      }
+    .row_right img{
+       margin-left: -35%;
+      }
+      .row_left img{
+        margin-left: -35%;
+       }
+    .row_left{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+    @media only screen and (max-width:767px)and (min-width:350px){
+   
+      .row_right img{
+        margin-left: 0;
+       }
+       .row_left img{
+         margin-left: 0;
+        }
+        .row_right .map_box{
+        margin-top: 5%;
+        }
+        .row_left .map_box{
+          margin-top: 5%;
+          }
+    }
+    }
+ 
+    @media only screen and (max-width:500px)and (min-width:350px){
+      .row_right img{
+        width: 300px;
+       }
+       .row_left img{
+        width: 300px;
+        }
+    }
+
+/* ****************************************Vector Portraits**************************************/
+
+@media only screen and (max-width:992px) and (min-width:300px){
+   .content-port{
+    display: block;
+   }
+   .port-img img{
+    margin-top: 5%;
+    width: 90%; 
+}
+.port-img{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main9-desc{
+    padding: 20px;
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    
+}
+.main9-desc h1{
+    font-size: 50px;
+}
+
+@media only screen and (max-width:767px) and (min-width:300px){
+    .main9-desc h1{
+        font-size: clamp(3rem,4vw,1rem);
+    }
+    .main9-desc{
+        width: auto;
+        height:auto; 
+    }
+}
+}
+
+/* ****************************************Vector Portraits end**************************************/
+
+
+/* ****************************************Contacts**************************************/
+
+@media only screen and (max-width:992px) and (min-width:300px){
+   
+    .main1-contact{
+        height: 65%;
+        border: 1px solid black;
+        background-color: #d5cabd;
+        display: block;
+        padding: 50px;
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    .main1-contact .header-text p{
+    margin: auto;
+    font-size:30px;
+    font-weight: 500;
+   }
+   .main1-contact .header-text h1{
+    margin: auto;
+    font-size:4rem;
+    font-weight: 500;
+   }
+   .main1-contact .header-text{
+    text-align: center;
+   }
+   .main1-contact .header-img img{
+    margin-top: 2%;
+}
+}
+@media only screen and (max-width:767px)and (min-width:300px){
+    .main1-contact .header-img img{
+        width:90%;
+  
+       }
+}
